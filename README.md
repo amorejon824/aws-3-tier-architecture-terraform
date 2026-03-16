@@ -46,17 +46,20 @@ Private DB Subnets → RDS
 
 ## Screenshots
 
-### Application Load Balancer
-![ALB](screenshots/alb-details.png)
-
-### Target Group Health
-![Targets](screenshots/target-group-health.png)
-
-### VPC Subnet Architecture
-![Subnets](screenshots/vpc-subnets.png)
-
-### RDS Instance
-![RDS](screenshots/rds-instance.png)
-
-### Terraform Deployment
+### Terraform Infrastructure Deployment
 ![Terraform](screenshots/terraform-apply.png)
+
+### VPC Architecture
+![VPC](screenshots/vpc-architecture.png)
+
+### Security Groups
+![Security Groups](screenshots/security-groups.png)
+
+### EC2 Application Server
+![EC2](screenshots/ec2-instance.png)
+
+### Application Load Balancer Routing Traffic
+![ALB](screenshots/alb-web-running.png)
+
+### RDS Database Endpoint
+![RDS](screenshots/rds-endpoint.png)
