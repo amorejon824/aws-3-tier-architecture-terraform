@@ -60,6 +60,3 @@ Private DB Subnets → RDS
 
 ### Application Load Balancer Routing Traffic
 ![ALB](screenshots/alb-web-running.png)
-
-### RDS Database Endpoint
-![RDS](screenshots/rds-endpoint.png)
