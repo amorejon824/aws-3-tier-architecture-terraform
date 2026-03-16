@@ -6,6 +6,28 @@ The environment includes an Application Load Balancer distributing traffic to an
 
 The goal of the project was to practice designing a scalable and layered cloud architecture while implementing infrastructure as code.
 
+## Architecture
+
+```
+                Internet
+                    │
+                    ▼
+       Application Load Balancer
+                    │
+                    ▼
+          EC2 Application Tier
+         (Auto Scaling Group)
+                    │
+                    ▼
+             RDS Database
+          (Private Subnets)
+
+Network Design
+Public Subnets → ALB
+Private App Subnets → EC2
+Private DB Subnets → RDS
+```
+
 ## Infrastructure Components
 
 • Custom VPC with public and private subnets  
