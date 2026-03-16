@@ -12,15 +12,15 @@ The goal of the project was to practice designing a scalable and layered cloud a
                 Internet
                     │
                     ▼
-       Application Load Balancer
+         Application Load Balancer
                     │
                     ▼
-          EC2 Application Tier
-         (Auto Scaling Group)
+            EC2 Application Tier
+            (Auto Scaling Group)
                     │
                     ▼
-             RDS Database
-          (Private Subnets)
+               RDS Database
+             (Private Subnets)
 
 Network Design
 Public Subnets → ALB
