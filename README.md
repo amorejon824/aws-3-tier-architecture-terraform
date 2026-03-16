@@ -43,3 +43,20 @@ Private DB Subnets → RDS
 • Database tier isolated in separate private subnets  
 • Security groups restrict communication between tiers  
 • Only the ALB is exposed to the internet  
+
+## Screenshots
+
+### Application Load Balancer
+![ALB](screenshots/alb-details.png)
+
+### Target Group Health
+![Targets](screenshots/target-group-health.png)
+
+### VPC Subnet Architecture
+![Subnets](screenshots/vpc-subnets.png)
+
+### RDS Instance
+![RDS](screenshots/rds-instance.png)
+
+### Terraform Deployment
+![Terraform](screenshots/terraform-apply.png)
